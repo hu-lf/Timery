@@ -1,0 +1,20 @@
+#app {
+    height: 100%;
+}
+#item, #record, #my {
+    height: 100%;
+}
+
+/* 面板展示 */
+/* 每项标题 */
+div[role="button"] {
+    border: none;
+    font-size: 18px !important;
+}
+/* 每项内容 */
+div.el-collapse-item__content {
+    font-size: 16px !important;
+}
+div[role="tabpanel"] {
+    text-align: center;
+}
